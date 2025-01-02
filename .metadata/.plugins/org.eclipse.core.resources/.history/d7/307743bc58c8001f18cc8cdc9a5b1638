@@ -1,0 +1,38 @@
+package com.chandra.model;
+
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class Main {
+
+	public static void main(String[] args) {
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session s = sf.openSession();
+		Transaction tx = s.beginTransaction();
+		
+		//Save Customers
+		Customer customer = new Customer();
+		customer.setName("Chandra");
+		customer.setAddress("Hyderabad");
+		
+		Customer customer1 = new Customer();
+		customer1.setName("Charan");
+		customer1.setAddress("Hyderabad");
+		
+		s.save(customer);
+		s.save(customer1);
+		tx.commit();
+		s.close();
+		sf.close();
+		
+		
+		
+
+	}
+
+}

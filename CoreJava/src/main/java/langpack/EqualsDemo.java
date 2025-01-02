@@ -1,0 +1,59 @@
+package langpack;
+
+import java.util.Objects;
+
+class Employee{
+	public int eid;
+	public String ename;
+	public Employee(int eid, String ename) {
+		this.eid = eid;
+		this.ename = ename;
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(eid, ename);
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return eid == other.eid && Objects.equals(ename, other.ename);
+	}
+		
+	public String toString() {
+		return eid+" "+ename;
+	}
+}
+public class EqualsDemo {
+
+	public static void main(String[] args) {
+		String s1 = "Hello";
+		String s2 = "Hello";
+		if(s1==s2) {
+			System.out.println("S1 and S2 are equals");
+		}else {
+			System.out.println("S1 and S2 are not equals");
+		}
+		System.out.println(s1.hashCode());
+		System.out.println(s2.hashCode());
+		
+		Employee e1 = new Employee(100,"abc");
+		Employee e2 = new Employee(100,"abc");
+		System.out.println(e1.hashCode());
+		System.out.println(e2.hashCode());
+		if(e1.equals(e2)) {
+			System.out.println("e1 and e2 are equals");
+		}else {
+			System.out.println("e1 and e2 are not equals");
+		}
+		System.out.println(e1.getClass().getName());
+		System.out.println(e1);
+
+	}
+
+}

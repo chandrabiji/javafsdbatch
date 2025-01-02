@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=ProductManagementSystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pms.dao{ProductDAO.java[ProductDAO" modifiers="513" timestamp="1733155224748"/>
+    <typeInfo handle="=JdbcApp/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pms.dao{ProductDAO.java[ProductDAO" modifiers="513" timestamp="1734019043041"/>
+    <typeInfo handle="=MyFirstApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chansra.dao{UserDAO.java[UserDAO" modifiers="513" timestamp="1734709927704"/>
+    <typeInfo handle="=Hibernate_01/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Student.java[Student" modifiers="1" timestamp="1735229598191"/>
+    <typeInfo handle="=Hibernate_02/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Student.java[Student" modifiers="1" timestamp="1735314657971"/>
+    <typeInfo handle="=OneToOne_03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Person.java[Person" modifiers="1" timestamp="1735401387093"/>
+    <typeInfo handle="=OneToOne_03/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Address.java[Address" modifiers="1" timestamp="1735400799262"/>
+    <typeInfo handle="=OneToMany_04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Department.java[Department" modifiers="1" timestamp="1735573129788"/>
+    <typeInfo handle="=OneToMany_04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Employee.java[Employee" modifiers="1" timestamp="1735573393189"/>
+    <typeInfo handle="=ManyToOne_05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Department.java[Department" modifiers="1" timestamp="1735575147043"/>
+    <typeInfo handle="=ManyToOne_05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Employee.java[Employee" modifiers="1" timestamp="1735574785384"/>
+    <typeInfo handle="=HibernateHQL_06/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Customer.java[Customer" modifiers="1" timestamp="1735746111654"/>
+</typeInfoHistroy>

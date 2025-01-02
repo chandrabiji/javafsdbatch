@@ -1,0 +1,15 @@
+package langpack;
+
+public class CloneTest {
+	
+	int a = 10;
+	int b = 20;
+
+	public static void main(String[] args) {
+		CloneTest c1 = new CloneTest();
+		System.out.println("A = "+c1.a);
+		System.out.println("B = "+c1.b);
+
+	}
+
+}

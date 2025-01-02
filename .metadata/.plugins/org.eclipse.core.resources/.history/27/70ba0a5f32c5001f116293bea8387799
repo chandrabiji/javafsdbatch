@@ -1,0 +1,5 @@
+package com.chandra.model;
+
+public class Address {
+
+}
