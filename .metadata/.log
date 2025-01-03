@@ -2061,3 +2061,9 @@ java.lang.ClassCastException: class org.eclipse.jdt.internal.core.JavaNature can
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-01-03 20:56:59.059
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-03 21:41:20.158
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-01-03 21:41:20.191
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
