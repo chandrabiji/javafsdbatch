@@ -49,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Hibernate_EhCache_09"/>
 			<item value="HibernateHQL_06"/>
 			<item value="ManyToOne_05"/>
 			<item value="OneToMany_04"/>

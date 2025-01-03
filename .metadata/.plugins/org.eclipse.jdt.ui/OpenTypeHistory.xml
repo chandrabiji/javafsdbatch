@@ -12,4 +12,5 @@
     <typeInfo handle="=ManyToOne_05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Department.java[Department" modifiers="1" timestamp="1735575147043"/>
     <typeInfo handle="=ManyToOne_05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Employee.java[Employee" modifiers="1" timestamp="1735574785384"/>
     <typeInfo handle="=HibernateHQL_06/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Customer.java[Customer" modifiers="1" timestamp="1735746111654"/>
+    <typeInfo handle="=Hibernate_EhCache_09/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.chandra.model{Product.java[Product" modifiers="1" timestamp="1735833439181"/>
 </typeInfoHistroy>
